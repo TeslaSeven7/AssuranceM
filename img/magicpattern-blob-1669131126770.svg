@@ -1,0 +1,32 @@
+
+  <svg
+    width="1000"
+    height="1000"
+    viewBox="0 0 1000 1000"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <defs>
+      
+      
+      
+      
+      <pattern id="imageId" patternUnits="userSpaceOnUse" width="1000" height="1000">
+  <image href="male-driving.jpg" x="0" y="0" width="1000" height="1000" />
+</pattern>
+  
+      
+      
+      <clipPath id="shape">
+        <path fill="currentColor" d="M754,670Q696,840,516.5,811Q337,782,199.5,641Q62,500,206,369.5Q350,239,520,205Q690,171,751,335.5Q812,500,754,670Z"></path>
+      </clipPath>
+    </defs>
+  
+    
+
+    <g  clip-path="url(#shape)">
+      <path fill="url(#imageId)" d="M754,670Q696,840,516.5,811Q337,782,199.5,641Q62,500,206,369.5Q350,239,520,205Q690,171,751,335.5Q812,500,754,670Z" />
+    </g>
+
+    
+  
+  </svg>
